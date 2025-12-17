@@ -47,7 +47,7 @@ phishing-detection/
 ├── frontend/             # React frontend
 │   ├── src/
 │   └── App.js
-|   └── index.js
-|   └── index.css
+│   └── index.js
+│   └── index.css
 │
 └── README.md

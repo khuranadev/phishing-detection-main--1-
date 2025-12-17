@@ -14,7 +14,6 @@ A full-stack machine learning web application that detects whether a given URL i
   - Python + scikit-learn ML model
 - 🔁 Seamless integration via REST API
 - 💾 Model saved using `pickle` for reuse
-- 🌐 Deployed on Vercel (frontend) and Render (backend)
 
 ---
 
@@ -27,7 +26,6 @@ A full-stack machine learning web application that detects whether a given URL i
 | Machine Learning | Python, scikit-learn |
 | Communication| Axios                  |
 | Model Format | `phishing_model.pkl`   |
-| Deployment   | Vercel + Render        |
 
 ---
 
@@ -41,13 +39,15 @@ phishing-detection/
 │   └── phishing_model.pkl
 │
 ├── backend/               # Node.js + Python backend
-│   ├── index.js
+│   ├── server.js
 │   ├── phishing_model.pkl
 │   └── python/
 │       └── predictor.py
 │
-├── frontend/              # React frontend
+├── frontend/             # React frontend
 │   ├── src/
 │   └── App.js
+|   └── index.js
+|   └── index.css
 │
 └── README.md
